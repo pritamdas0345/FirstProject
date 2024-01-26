@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1 align="center"><ins>REGISTRATION FORM</ins></h1>
+    <form name="frm">
+        <table>
+           
+            <tr><td>NAME</td><td><input type="text" name="fname" value="NAME" required></td></tr>
+           <tr><td>EMAIL</td><td><input type="email" name="fmail" value="EMAIL" required></td></tr>
+           <tr><td>CONTACT NO</td><td><input type="number" name="fcn" value="0000000000" required></td></tr>
+           <tr><td>D.O.B</td><td><input type="date" name="fdob" required></td></tr>
+           
+           <tr><td>GENDER</td><td><input type="radio" name="fgn" value="M" checked>MALE</td><td><input type="radio" name="fgn" value="F">FEMALE</td></tr> 
+            
+           <tr><td>COURSE</td></tr> 
+            <td><input type="checkbox" name="fco" value="C" checked>C</td></tr>
+            <td><input type="checkbox" name="fco" value="C++" checked>C++</td></tr>
+            <td><input type="checkbox" name="fco" value="C#" checked>C#</td></tr>
+            
+            <tr><td><select name="fcity">
+            <option value="--SELECT--">--SELECT--</option>
+            <option value="KOLKATA">KOLKATA</option>
+            <option value="MUMBAI">MUMBAI</option>
+            <option value="CHENNAI">CHENNAI</option></td></tr>
+            </select>
+            
+            <tr>
+                <td>ADDRESS</td><td><textarea name="fadd"></textarea></td>
+            </tr>
+            
+            <tr><td>SELECT FILE</td><td><input type="file" name="ffname"></td></tr>
+            <tr><td colspan="1" align="center"><input type="submit" name="fsub"></td><td><input type="reset" name="freset"></td></tr>
+        </table>
+    </form>
+</body>
+</html>
