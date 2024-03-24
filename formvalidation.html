@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style102.css">
+</head>
+<body style="background-color: rgb(247, 116, 116); padding: 0px;">
+    <div class="wrapper">
+       
+        <div class="holder">
+            <form action="">
+                <table>
+                    <thead><th colspan="4" style="background-color: bisque;">REGISTRATION FROM</th></thead>
+                    <tr><td>NAME</td><td><input type="text" name="pname" autocomplete="off" required placeholder="ENTER NAME" pattern="[a-z]{1,50}" title="INCORRECT FORMAT"></td></tr>
+                    <tr><td>E-MAIL</td><td><input type="email" name="pemail" autocomplete="off" required placeholder="ENTER EMAIL"></td></tr>
+                    <tr><td>ADDRESS</td><td><input type="text" name="padd" autocomplete="off" required placeholder="ENTER ADDRESS"></td></tr>
+                    <tr><td>MOBILE NO.</td><td><input type="number" name="pnum" autocomplete="off" required placeholder="ENTER CONTACT" pattern="[0-9]{10}" ></td></tr>
+                    <tr><td>PASSWORD</td><td> <input type="password" name="ppass" autocomplete="off" required placeholder="ENTER PASSWORD"></td></tr>
+                    
+                    <tr><td>D.O.B.</td><td><input type="date" name="pdate" required></td></tr>
+                    
+                    <tr><td>GENDER</td><td>MALE<input type="radio" name="pgen"><td>FEMALE<input type="radio" name="pgen"></td></tr>
+                        
+                    <td>LANGUAGE</td><td>ENGLISH<input type="checkbox" name="plang">
+                                     <td>BEGALI<input type="checkbox" name="plang">
+                                     <td>HINDI<input type="checkbox" name="plang"></td>
+                    
+                    <tr><td>BIO</td><td><textarea type="text" cols="30" rows="10"name="pbio" placeholder="ABOUT YOURSELF"></textarea></td></tr>
+                    
+                    <tr><td>CITY</td><td><select name="pcity">
+                        <option value="kol">KOLKATA</option>
+                        <option value="mum">MUMBAI</option>
+                        <option value="chn">CHENNAI</option>
+                        <option value="ban">BANGALORE</option>
+                    </select></td></tr>
+                    
+                    <tr><td>UPLOAD IMAGE</td><td><input type="file" name="pfile" required></td></tr>
+                    
+                    <tr><td><input type="checkbox" name="pcheck" required></td><td>ALL THE ABOVE INFORMATIONS ARE CORRECT</td></tr>
+                    <tr><td colspan="4"><input type="reset" name="rs" value="reset">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="sb" value="submit"></td></tr>
+                </table>
+            </form>
+        </div>
+        <div class="footer"><strong>PRITAM DAS</strong></div>
+    </div>
+</body>
+</html>

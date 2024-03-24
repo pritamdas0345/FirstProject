@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WRAPPER</title>
+    <style type="text/css">
+        #wrapper{
+            width: 1000px;
+            height: 500px;
+            border: dotted red 1px;
+            margin-left: 190px;
+            margin-top: 1px;
+        }
+        .container{
+            width: 200px;
+            height: 80px;
+            border: dashed 1px blue;
+            margin: 50px; 
+            float: left;
+            text-align: center;
+            padding-top: 40px;
+            margin-left: 180px;
+        }
+        .bg1{
+            background-color: aqua;
+        }
+        .bg2{
+            background-color: brown;
+        }
+        .menu{
+            width: 1000px;
+            height: 25px;
+            margin: 0px 0px 0px 190px;
+            border: 1px solid orangered;
+        }
+        .menu ul{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        .menu ul li{
+            float: left;
+            padding-top: 3px;
+            width: 100px;
+            padding-left: 20px;
+            background-color: yellow;
+            margin: 0px 0px 0px 150px;
+            text-align: center;
+        }
+        .menu ul li a{
+            height: 20px;
+            width: 50px;
+            display: block;
+            color: brown;
+            text-decoration: none;
+            font-size: large;
+            font-weight: 1000;
+        }
+        .menu ul li:hover, .active{
+            background-color: orange;
+        }
+        .foot{
+            width: 1000px;
+            height: 25px;
+            margin: 1px 0px 0px 190px;
+            border: 1px solid slategrey;
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="menu">
+        <ul>
+            <li>
+                <a href="table.html">HOME</a>
+            </li>
+            <li>
+                <a href="video.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="practable.html">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <section id="wrapper">
+        <section class="container bg1">1</section>
+        <section class="container bg2">2</section>
+    </section>
+
+    <footer class="foot">FOOTER</footer>
+
+</body>
+</html>
